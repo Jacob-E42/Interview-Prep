@@ -5,6 +5,7 @@ describe("isSubsequence", function () {
 		expect(isSubsequence("hello", "hello world")).toBe(true);
 		expect(isSubsequence("sing", "sting")).toBe(true);
 		expect(isSubsequence("abc", "abracadabra")).toBe(true);
+		expect(isSubsequence("", "anything")).toBe(true);
 	});
 
 	it("should return false if the first string is not a substring of the second", function () {
