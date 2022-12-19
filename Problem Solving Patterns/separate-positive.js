@@ -1,3 +1,4 @@
 // add whatever parameters you deem necessary
-function separatePositive() {
-}
+function separatePositive() {}
+
+module.exports = separatePositive;

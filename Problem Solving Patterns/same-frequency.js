@@ -1,3 +1,4 @@
 // add whatever parameters you deem necessary
-function sameFrequency() {
-}
+function sameFrequency() {}
+
+module.exports = sameFrequency;
